@@ -2,7 +2,7 @@ pragma solidity ^0.4.23;
 
 /**
  * @title SafeMath
- * @dev Math operations with safety checks that throw on error
+ * @dev Math operations with safety checks that throw on overflow
  * @notice https://github.com/OpenZeppelin/zeppelin-solidity/blob/master/contracts/math/SafeMath.sol
  */
 library SafeMath {
@@ -32,5 +32,15 @@ library SafeMath {
 	function sub(uint256 a, uint256 b) internal pure returns (uint256) {
 		assert(b <= a);
 		return a - b;
+	}
+	
+	/**
+	 * SafeMath add function
+	 * @dev Adds two numbers, throws on overflow.
+	 */
+	function add(uint256 a, uint256 b) internal pure returns (uint256 c) {
+		c = a + b;
+		assert(c >= a);
+		return c;
 	}
 }
