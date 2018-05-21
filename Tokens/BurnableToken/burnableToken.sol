@@ -39,7 +39,7 @@ contract BurnableToken is StandardToken {
    * @dev Create and issue tokens to msg.sender.
    */
   constructor() public {
-    totalSupply = INITIAL_SUPPLY;
+    totalSupply_ = INITIAL_SUPPLY;
     balances[msg.sender] = INITIAL_SUPPLY;
   }
   
