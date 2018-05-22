@@ -15,7 +15,7 @@ contract PausableToken is StandardToken, Pausable {
     uint256 public constant INITIAL_SUPPLY = 500000000 * 10**18;
 
     /**
-     * @dev Prevent the token from ever being paused again
+     * @dev Transfer tokens when not paused
      **/
     function transfer(address _to, uint256 _value) public whenNotPaused returns (bool) {
         return super.transfer(_to, _value);
