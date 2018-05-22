@@ -10,7 +10,7 @@ import "../../Helpers/Modifiers/Pausable.sol";
  **/
 contract PausableToken is StandardToken, Pausable {
     string public constant NAME = "Pausable Token";
-    string public constant SYMBOL = "PAS";
+    string public constant SYMBOL = "PAUSE";
     uint256 public constant DECIMALS = 18;
     uint256 public constant INITIAL_SUPPLY = 500000000 * 10**18;
 
