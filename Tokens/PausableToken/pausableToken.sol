@@ -9,6 +9,11 @@ import "../../Helpers/Modifiers/Pausable.sol";
  * @dev StandardToken modified with pausable transfers.
  **/
 contract PausableToken is StandardToken, Pausable {
+    string public constant NAME = "Pausable Token";
+    string public constant SYMBOL = "PAS";
+    uint256 public constant DECIMALS = 18;
+    uint256 public constant INITIAL_SUPPLY = 500000000 * 10**18;
+
     /**
      * @dev Prevent the token from ever being paused again
      **/
@@ -43,4 +48,13 @@ contract PausableToken is StandardToken, Pausable {
     function decreaseApproval(address _spender, uint _subtractedValue) public whenNotPaused returns (bool success) {
         return super.decreaseApproval(_spender, _subtractedValue);
     }
+    
+    /**
+   * Pausable Token Constructor
+   * @dev Create and issue tokens to msg.sender.
+   */
+  constructor() public {
+    totalSupply_ = INITIAL_SUPPLY;
+    balances[msg.sender] = INITIAL_SUPPLY;
+  } 
 }
