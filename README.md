@@ -1,7 +1,6 @@
 # ERC20_Token_Types
 
-ERC20 Token types is a library for various ERC20 token smart contracts. This project was designed for users to essentially copy and past and deploy the chosen token directly onto the Etherem Blockchain. 
-
+ERC20 Token types is a library for various ERC20 token smart contracts. This project was designed for users to essentially copy and paste and deploy the chosen token directly onto the Ethereum Blockchain. 
 
 #### Modifiers
 <details>
@@ -55,8 +54,6 @@ ERC20 Token types is a library for various ERC20 token smart contracts. This pro
   
   [BurnableToken](https://github.com/halls7588/ERC20_Token_Types/blob/master/Tokens/BurnableToken)
   
-  [Associative Array in C#](https://github.com/halls7588/ERC20_Token_Types/blob/master/Tokens/)
-  
   [MineableToken](https://github.com/halls7588/ERC20_Token_Types/blob/master/Tokens/MineableToken)
   
   [MintableToken](https://github.com/halls7588/ERC20_Token_Types/blob/master/Tokens/MintableToken)
@@ -73,11 +70,13 @@ ERC20 Token types is a library for various ERC20 token smart contracts. This pro
   
   [BasicCrowdSaleToken](https://github.com/halls7588/ERC20_Token_Types/tree/master/Tokens/CrowdSaleToken/BasicCrowdSaleToken)
   
-  [Circular Stack in C#](https://github.com/halls7588/ERC20_Token_Types/tree/master/Tokens/CrowdSaleToken/CappedSaleToken)
+  [CappedSaleToken](https://github.com/halls7588/ERC20_Token_Types/tree/master/Tokens/CrowdSaleToken/CappedSaleToken)
   
-  [Linked Stack in C#](https://github.com/halls7588/ERC20_Token_Types/tree/master/Tokens/CrowdSaleToken/CustomEventToken)
+  [CustomEventToken](https://github.com/halls7588/ERC20_Token_Types/tree/master/Tokens/CrowdSaleToken/CustomEventToken)
   
-  [Arrayed Queue in C#](https://github.com/halls7588/ERC20_Token_Types/tree/master/Tokens/CrowdSaleToken/MiltiDiscountToken)
+  [MiltiDiscountToken](https://github.com/halls7588/ERC20_Token_Types/tree/master/Tokens/CrowdSaleToken/MiltiDiscountToken)
+  
+  [TimedCrowdSaleToken](https://github.com/halls7588/ERC20_Token_Types/tree/master/Tokens/CrowdSaleToken/TimedCrowdSaleToken)
 </details>
 
 ## Getting Started
@@ -86,7 +85,7 @@ Fork or clone the repo, grab the token you want with its dependencies, compile t
 
 ### Prerequisites
 
-Understanding of Solidity or proficent with a language like JavaScript, Swift, Java ect. 
+Understanding of Solidity or proficient with a language like JavaScript, Swift, Java etc.. 
 
 ## Deployment
 
@@ -94,13 +93,13 @@ Understanding of Solidity or proficent with a language like JavaScript, Swift, J
 
 * To execute the token code: 
    - For MyEtherWallet; 
-     1. Copy the token code and its dependincies. 
+     1. Copy the token code and its dependencies. 
      2. Paste the token code into the remix online compiler. 
      3. Copy the EVM code and past into the MyEtherWallet execute smart contract. 
      4. Pay the gas price, enjoy your tokens.
 
 ## Contributing
-Nothing in place. Feel free to message me if you want to contriibute. [email](mailto:halls7588@gmail.com)
+Nothing in place. Feel free to message me if you want to contribute. [email](mailto:halls7588@gmail.com)
 
 
 ## Authors
