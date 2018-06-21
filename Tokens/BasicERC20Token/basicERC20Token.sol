@@ -6,7 +6,7 @@ import "../../Helpers/TokenBasics/StandardToken.sol";
  * @title Lavevel Token
  * @dev Simple ERC20 Token with standard token functions.
  */
-contract LavevelToken is StandardToken {
+contract BasicToken is StandardToken {
   string public constant NAME = "Lavevel Token";
   string public constant SYMBOL = "LVL";
   uint256 public constant DECIMALS = 18;
