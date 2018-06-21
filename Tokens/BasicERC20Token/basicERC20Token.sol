@@ -3,12 +3,12 @@ pragma solidity ^0.4.23;
 import "../../Helpers/TokenBasics/StandardToken.sol";
 
 /**
- * @title Lavevel Token
+ * @title BasicERC20 Token
  * @dev Simple ERC20 Token with standard token functions.
  */
-contract BasicToken is StandardToken {
-  string public constant NAME = "Lavevel Token";
-  string public constant SYMBOL = "LVL";
+contract BasicERC20Token is StandardToken {
+  string public constant NAME = "Basic Token";
+  string public constant SYMBOL = "BCTT";
   uint256 public constant DECIMALS = 18;
 
   uint256 public constant INITIAL_SUPPLY = 500000000 * 10**18;
