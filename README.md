@@ -46,7 +46,7 @@ ERC20 Token types is a library for various ERC20 token smart contracts. This pro
 <details>
   <summary>Token Types</summary>
   
-  ##### Token List
+  ##### Stand Alone Token
   
   [Basic ERC20 token](https://github.com/halls7588/ERC20_Token_Types/blob/master/Tokens/BasicERC20Token)
   
@@ -67,6 +67,8 @@ ERC20 Token types is a library for various ERC20 token smart contracts. This pro
   [VestingToken](https://github.com/halls7588/ERC20_Token_Types/blob/master/Tokens/VestingToken)
   
   [WhitelistToken](https://github.com/halls7588/ERC20_Token_Types/blob/master/Tokens/WhitelistToken)
+  
+  ##### Crownd Sale Tokens
   
   [BasicCrowdSaleToken](https://github.com/halls7588/ERC20_Token_Types/tree/master/Tokens/CrowdSaleToken/BasicCrowdSaleToken)
   
