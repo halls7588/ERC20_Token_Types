@@ -113,7 +113,7 @@ contract CrowdsaleToken is StandardToken, Configurable, Ownable {
  * @title basicCrowdSaleToken 
  * @dev Contract to create the basicCrowdSaleToken Token
  **/
-contract LavevelToken is CrowdsaleToken {
+contract BasicCrowdSaleToken is CrowdsaleToken {
     string public constant name = "basicCrowdSaleToken";
     string public constant symbol = "BCST";
     uint32 public constant decimals = 18;
