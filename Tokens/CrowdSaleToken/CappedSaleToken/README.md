@@ -1,1 +1,0 @@
-# Capped Crowdsale Token
